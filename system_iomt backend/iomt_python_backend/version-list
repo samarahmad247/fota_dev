@@ -1,0 +1,14 @@
+machineUDI=NA
+systemVersion=0.0.0.0
+hmiUiVersion=0.0.0.3
+hmiBackendVersion=0.0.0.0
+fMasterVersion=0.0.0
+fSlaveVersion=0.0.0
+stmPyAppVersion=0.0.0
+stmCAppVersion=0.0.0
+stmOsVersion=0.0.0
+iomtPyAppVersion=0.0.0
+iomtCAppVersion=0.0.0
+iomtOsVersion=0.0.0
+hmiUiVersion=0.0.0.3
+sentRollback=0

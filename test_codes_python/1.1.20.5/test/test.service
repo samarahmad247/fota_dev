@@ -1,0 +1,20 @@
+# Copyright (C) 2022, Noccarc Robotics - All Rights Reserved
+
+# This service executes the fota_stm.py located in /usr/local/zmq/FOTA_STM
+# Called when a FOTA update is requested.
+# Working directory needs to be changed to /usr/local/zmq/FOTA_STM before executing 
+# as a log is created by fota_stm.py, which needs to be resided in /usr/local only.
+# Must be run after V730i backend service 
+
+[Unit]
+Description= 730i rtc test Service
+Requires=weston@root.service
+after=backend.service
+
+[Service]
+Type=idle
+ExecStart=/etc/scripts/rtc.sh
+
+[Install]
+WantedBy=multi-user.target
+
